@@ -55,7 +55,7 @@ This project provides a Flask application that interacts with Kafka for message 
 Clone the repository to your local machine:
 
 ```bash
-git clone <repository_url>
+git clone git@github.com:sharjeel0288/flask-kafka.git
 cd kafka-flask-app
 ```
 
