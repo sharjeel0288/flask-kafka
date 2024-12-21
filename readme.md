@@ -56,7 +56,7 @@ Clone the repository to your local machine:
 
 ```bash
 git clone git@github.com:sharjeel0288/flask-kafka.git
-cd kafka-flask-app
+cd kafka-flask
 ```
 
 ### 2. **Update Kafka IP in Configuration**
