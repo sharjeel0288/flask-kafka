@@ -1,6 +1,6 @@
-Here is a detailed `README.md` file that covers setting up the project, changing the IP, starting Kafka with Docker, running the Flask app, and testing the APIs:
 
-```markdown
+
+
 # Kafka Flask Application
 
 This project provides a Flask application that interacts with Kafka for message production and consumption. It includes endpoints to produce messages to Kafka topics, consume messages from Kafka topics, and manage Kafka topics and partitions.
@@ -13,26 +13,40 @@ This project provides a Flask application that interacts with Kafka for message 
 
 ## Project Structure
 
-```
+
 /kafka-flask-app
 │
-├── app.py                       # Flask application entry point
+
+├── app.py 
+
 ├── services/
-│   ├── kafka_consumer_service.py  # Kafka consumer service
-│   ├── kafka_producer_service.py  # Kafka producer service
-│   └── kafka_admin_service.py     # Kafka admin service for managing topics/partitions
+│   ├── kafka_consumer_service.py  
+
+│   ├── kafka_producer_service.py 
+
+│   └── kafka_admin_service.py  
+
 │
 ├── models/
-│   ├── __init__.py               # Models import
-│   └── message_model.py          # Message data model (optional)
+
+│   ├── __init__.py               
+
+│   └── message_model.py 
+
 │
+
 ├── utils/
-│   ├── __init__.py               # Utility module
-│   └── kafka_config.py           # Kafka configuration
+
+│   ├── __init__.py               
+
+│   └── kafka_config.py         
+
+
 │
-├── docker-compose.yml            # Docker Compose configuration for Kafka
-└── requirements.txt              # Python dependencies
-```
+├── docker-compose.yml            
+
+└── requirements.txt              
+
 
 ## Setup
 
@@ -258,7 +272,6 @@ curl -X POST http://127.0.0.1:5000/admin/partitions -H "Content-Type: applicatio
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
 ### Explanation:
 
