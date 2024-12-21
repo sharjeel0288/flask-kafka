@@ -269,9 +269,7 @@ curl -X POST http://127.0.0.1:5000/admin/partitions -H "Content-Type: applicatio
 
 ---
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### Explanation:
 
