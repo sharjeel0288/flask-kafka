@@ -278,4 +278,3 @@ curl -X POST http://127.0.0.1:5000/admin/partitions -H "Content-Type: applicatio
 - **Testing**: Instructions for testing the APIs using tools like **Postman**, **curl**, and **Python script**.
 - **Troubleshooting**: Common issues like Kafka connection problems and missing topics are addressed.
 
-This README provides complete information for users to set up the project and use its features effectively.
