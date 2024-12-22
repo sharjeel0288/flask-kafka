@@ -63,7 +63,7 @@ cd flask-kafka
 Make sure that the IP address in `kafka_config.py` matches your Kafka broker's IP.
 
 - Open the file `utils/kafka_config.py` and change the default Kafka IP address (if necessary):
-  
+- for better understanding refer to this https://rmoff.net/2018/08/02/kafka-listeners-explained/
 ```python
 BOOTSTRAP_SERVERS = 'localhost:9092'  # Change this if Kafka is hosted elsewhere
 ```
